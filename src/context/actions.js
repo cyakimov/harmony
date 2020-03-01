@@ -1,0 +1,6 @@
+export const CREATE_ROOM = 'CREATE_ROOM';
+export const JOIN_ROOM = 'JOIN_ROOM';
+export const LEAVE_ROOM = 'LEAVE_ROOM';
+export const SCREEN_SHARING = 'SCREEN_SHARING';
+export const SCREEN_SHARING_ERROR = 'SCREEN_SHARING_ERROR';
+export const SET_LOCAL_STREAM = 'SET_LOCAL_STREAM';

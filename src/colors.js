@@ -1,0 +1,9 @@
+export default {
+  PRIMARY: '#295FFB',
+  PRIMARY_TEXT: 'white',
+  PRIMARY_HOVER: '#295FFB',
+  HEADING_PRIMARY: 'black',
+  HEADING_SECONDARY: '#8e9297',
+  INPUT_BG: '#F6F6FD',
+  INPUT_TEXT: '#6B7893',
+};
