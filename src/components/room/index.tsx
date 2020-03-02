@@ -123,7 +123,13 @@ function Room({id: roomId, peer, username, initiator}: IRoom) {
     };
 
     const onHangUp = () => {
+        const videoTracks = state.localStream.getVideoTracks() || [];
         peer.disconnect();
+        videoTracks.forEach((track: MediaStreamTrack) => {
+            if (track.enabled) {
+                track.stop();
+            }
+        });
         leaveRoom(roomId);
     };
 
